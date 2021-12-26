@@ -144,7 +144,6 @@ Note that not all flags are mandatory - we included all available flags for docu
             "<a href="#uninstall_window">required_runtime</a>": 1000,
             //if not defined, the default is 10 seconds. valid up to 60000 (1 minute).
         }
-
     }
 }
 </code></pre>
@@ -254,7 +253,6 @@ Note that not all flags are mandatory - we included all available flags for docu
             "<a href="#uninstall_window">file</a>": "name.html",
             "<a href="#uninstall_window">required_runtime</a>": 1000,
         }
-            
 }
 </code></pre>
 </details>
