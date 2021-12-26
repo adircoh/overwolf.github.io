@@ -145,8 +145,7 @@ Note that not all flags are mandatory - we included all available flags for docu
             //if not defined, the default is 10 seconds. valid up to 60000 (1 minute).
         }
     }
-}
-</code></pre>
+}</code></pre>
 
 ## manifest.json without fields summary
 
