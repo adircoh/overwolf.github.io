@@ -16,8 +16,7 @@ Note that not all flags are mandatory - we included all available flags for docu
 
 *Use this manifest with Overwolf client version 0.141 and above*
 
-<pre><code class="json">
-{
+<pre><code class="json">{
     //Mandatory
     "<a href="#manifest_version">manifest_version</a>": 1,
     "<a href="#type">type</a>": "WebApp",
@@ -154,8 +153,7 @@ Note that not all flags are mandatory - we included all available flags for docu
 
 *Use this manifest with Overwolf client version 0.141 and above*
 
-<pre><code class="json">
-{
+<pre><code class="json">{
     "<a href="#manifest_version">manifest_version</a>": 1,
     "<a href="#type">type</a>": "WebApp",
     "<a href="#meta-object">meta</a>": {
@@ -243,7 +241,7 @@ Note that not all flags are mandatory - we included all available flags for docu
         "<a id="developer-manifest" href="#developer-game-settings">developer</a>": {
                 "<a href="#developer-game-settings">enable_auto_refresh</a>": true,
                 "<a href="#developer-game-settings">reload_delay</a>": 1000,
-                "<a href="#developer-game-settings">filter</a>": <span style="font-weight: 400;">"*.json;*.html"</span><span style="font-weight: 400;"> 
+                "<a href="#developer-game-settings">filter</a>": "*.json;*.html"
             },
         "<a href="#disable_cleanup">disable_cleanup</a>": true,
         "<a href="#process_name">process_name</a>": "my sample app",
@@ -252,8 +250,7 @@ Note that not all flags are mandatory - we included all available flags for docu
             "<a href="#uninstall_window">file</a>": "name.html",
             "<a href="#uninstall_window">required_runtime</a>": 1000,
         }
-}
-</code></pre>
+}</code></pre>
 </details>
 
 ## Validate your manifest.json
