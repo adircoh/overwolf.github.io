@@ -131,7 +131,7 @@ Note that not all flags are mandatory - we included all available flags for docu
                 //Reload delay (in ms) when detecting file changes (for multiple change)default is 1000 (1 second)
                 "<a href="#developer-game-settings">reload_delay</a>": 1000,
                 //Filter files which will be tracked.e.g (*.js;*.html)Default: all files (*.*)
-                "<a href="#developer-game-settings">filter</a>": <span style="font-weight: 400;">"*.json;*.html"</span><span style="font-weight: 400;"> 
+                "<a href="#developer-game-settings">filter</a>": "*.json;*.html"
             },
         //If set to true, app local data will not be cleaned up after app uninstallation
         "<a href="#disable_cleanup">disable_cleanup</a>": true,
